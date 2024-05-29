@@ -367,11 +367,14 @@
 "Assets/Scripts/DayNightCycle.cs"
 "Assets/Scripts/Item/ItemObject.cs"
 "Assets/Scripts/Player/CharacterManager.cs"
+"Assets/Scripts/Player/Interaction.cs"
 "Assets/Scripts/Player/Player.cs"
 "Assets/Scripts/Player/PlayerCondition.cs"
 "Assets/Scripts/Player/PlayerController.cs"
+"Assets/Scripts/ScriptableObject/ItemData.cs"
 "Assets/Scripts/UI/Condition.cs"
 "Assets/Scripts/UI/DamageIndicator.cs"
+"Assets/Scripts/UI/ItemSlot.cs"
 "Assets/Scripts/UI/UICondition.cs"
 -langversion:9.0
 
