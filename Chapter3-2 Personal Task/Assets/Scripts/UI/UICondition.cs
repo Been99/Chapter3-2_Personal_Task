@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class UICondition : MonoBehaviour
@@ -12,10 +10,5 @@ public class UICondition : MonoBehaviour
     void Start()
     {
         CharacterManager.Instance.Player.condition.uICondition = this;
-    }
-
-    void Update()
-    {
-        
     }
 }
