@@ -56,4 +56,15 @@ public class PlayerCondition : MonoBehaviour, IDamagalbe
         health.Subtract(damage);
         onTakeDamage?.Invoke();
     }
+
+    public bool UseStemina(float amount)
+    {
+        if(stemina.curValue - amount < 0.0f)
+        {
+            return false;
+        }
+
+        stemina.Subtract(amount);
+        return true;
+    }
 }
