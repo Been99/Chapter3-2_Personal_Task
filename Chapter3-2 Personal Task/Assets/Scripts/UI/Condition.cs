@@ -8,7 +8,7 @@ public class Condition : MonoBehaviour
     public float maxValue;
     public float passiveValue;
     public Image uiBar;
-
+ 
 
     void Start()
     {

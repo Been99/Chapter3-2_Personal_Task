@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour
             new Ray(transform.position + (-transform.right *0.2f) + (transform.up * 0.01f), Vector3.down),
         };
 
-         for (int i = 0; i < rays.Length; i++)
+        for (int i = 0; i < rays.Length; i++)
         {
             if (Physics.Raycast(rays[i], 0.1f, groundLayerMask))
             {
